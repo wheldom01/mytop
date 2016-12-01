@@ -162,7 +162,7 @@ GetOptions(
     "long!"               => \$config{long_nums},
     "mode|m=s"            => \$config{mode},
     "sort=s"              => \$config{sort},
-    "ssl=b"               => \$config{ssl},
+    "ssl!"                => \$config{ssl},
     "cafile=s"            => \$config{ca_file},
     "capath=s"            => \$config{ca_path},
 );
