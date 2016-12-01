@@ -212,7 +212,7 @@ my $dsn;
 
 ## Socket takes precedence.
 
-$dsn ="DBI:mysql:database=$config{db};mysql_read_default_group=mytop;";
+$dsn = "DBI:mysql:database=$config{db};mysql_read_default_group=mytop;";
 
 if ($config{socket} and -S $config{socket})
 {
